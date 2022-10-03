@@ -32,7 +32,7 @@
 
     function LoadHeader():void 
     {
-        $.get("./Views/components/header.html", function(html_data)
+        $.get("/Views/components/header.html", function(html_data)
         {
             console.log("Loading Header")
             $("header").html(html_data);

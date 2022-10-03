@@ -22,7 +22,7 @@
         return ContactArray;
     }
     function LoadHeader() {
-        $.get("./Views/components/header.html", function (html_data) {
+        $.get("/Views/components/header.html", function (html_data) {
             console.log("Loading Header");
             $("header").html(html_data);
             // activate the Home Link on initial load
